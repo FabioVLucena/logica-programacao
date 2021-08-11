@@ -1,0 +1,28 @@
+<html>
+<head>
+<meta charset="UTF-8">
+	<script>
+	function print(print){
+		document.write(print);
+		pulaLinha();
+	}
+	function pulaLinha(){
+		document.write("<br>");
+	}
+	
+	</script>
+</head>
+<body>
+	<script>
+	var anoInicial = 1500
+	var anoFinal = 2021
+	var anoGeracao = 28
+	
+	var quantidadeGeracao = (anoFinal - anoInicial) / anoGeracao
+	
+	print("Atualmente já estamos na " + Math.round(quantidadeGeracao) + "º geração brasileira.")
+	
+	
+	</script>
+</body>
+</html>
